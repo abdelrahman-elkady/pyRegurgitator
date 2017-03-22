@@ -6,7 +6,7 @@ Website/docs: http://pythonhosted.org/pyRegurgitator
 
 Code on github: https://github.com/schettino72/pyRegurgitator/
 
-
+Supported versions: Python 3.4 only
 
 Tools
 =======
@@ -36,8 +36,17 @@ developers / contributors
 install
 =======
 
+Install using pip3.4
 ::
 
+ $ pip3.4 install pyRegurgitator
+ 
+Or inside python3.4 virtualenv
+
+::
+
+ $ virtualenv -p /path/to/python3.4 venv
+ $ source venv/bin/activate
  $ pip install pyRegurgitator
 
 or download and::
